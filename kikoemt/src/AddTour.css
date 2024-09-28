@@ -1,0 +1,47 @@
+.tourform {
+    background-color: rgba(255, 255, 200, 0.9); /* Stronger light yellow background */
+    border: 3px solid #b0a84e; /* Darker yellow for the border */
+    border-radius: 12px; /* Slightly larger border radius */
+    padding: 30px; /* Increased padding for more space */
+    max-width: 500px; /* Increased maximum width for the form */
+    margin: 30px auto; /* Center the form horizontally with more margin */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow for more depth */
+}
+
+.tourform input,
+.tourform textarea {
+    width: 95%; /* Full width for inputs */
+    padding: 12px; /* Increased padding for better touch */
+    margin-bottom: 12px; /* More space between fields */
+    border: 2px solid #b0a84e; /* Stronger border color */
+    border-radius: 6px; /* Larger border radius */
+    background-color: rgba(255, 255, 255, 0.9); /* Stronger white background for inputs */
+    color: #333; /* Dark text for readability */
+    font-size: 18px; /* Larger font size for inputs */
+}
+
+.tourform textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height for the textarea */
+}
+
+.tourform button {
+    background-color: #b0a84e; /* Stronger button color */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 6px; /* Larger border radius */
+    padding: 12px 20px; /* Increased padding for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Larger font size for button */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.tourform button:hover {
+    background-color: #a5943e; /* Darker yellow on hover */
+}
+
+/* Date input styles to match the theme */
+.tourform input[type="date"] {
+    background-color: rgba(255, 255, 255, 0.9); /* Match background with inputs */
+    color: #333; /* Dark text for readability */
+}

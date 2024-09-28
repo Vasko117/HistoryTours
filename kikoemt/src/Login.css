@@ -1,0 +1,66 @@
+/* Historic-themed styling for the Login component */
+
+.login-container {
+    background-color: #f0e68c; /* Light yellow background */
+    padding: 40px;
+    border: 2px solid #b8860b; /* Gold border */
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    font-family: 'Georgia', serif;
+}
+
+.login-title {
+    text-align: center;
+    color: #8b4513; /* Dark brown color */
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #8b4513;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #b8860b;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    color: #8b4513;
+}
+
+.form-group input:focus {
+    border-color: #d2b48c;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #d2b48c; /* Tan button color */
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+}
+
+.login-btn:hover {
+    background-color: #b8860b; /* Gold-ish on hover */
+}

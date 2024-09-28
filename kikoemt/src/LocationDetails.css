@@ -1,0 +1,127 @@
+.location-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #f0e68c;
+}
+.info-btn {
+    margin-left: 10px; /* Add space between the buttons */
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.info-btn:hover {
+    background-color: #FF8C00; /* Darker orange */
+    transform: scale(1.05);
+}
+
+.location-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.location-header h1 {
+    font-size: 3rem;
+    color: #f0e68c; /* Historic orange-brown color */
+}
+/* styles.css or in your styled-components file */
+.add-tour-btn {
+    position: absolute; /* Position it absolutely */
+    top: 100px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: #FFA500; /* Orange */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px; /* Add some margin */
+    transition: background-color 0.3s, transform 0.2s;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.add-tour-btn:hover {
+    background-color: #FF8C00; /* Darker orange */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.favorite-btn {
+    background-color: #FFA500; /* Orange */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some margin */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.favorite-btn.liked {
+    background-color: #FF4500; /* Liked color */
+}
+
+.favorite-btn:hover {
+    background-color: #FF8C00; /* Darker orange */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.favorite-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.favorite-btn.liked {
+    background-color: #cc0000;
+}
+
+.favorite-btn:hover {
+    background-color: #ff6600;
+}
+.location-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+    background-color: #f0e68c;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.location-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    border: 2px solid #cc7722;
+}
+
+.location-info {
+    flex-grow: 1;
+}
+
+.location-info p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.location-info strong {
+    color: #cc7722;
+}

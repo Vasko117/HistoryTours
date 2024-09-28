@@ -1,0 +1,48 @@
+/* Styling for the homepage component */
+
+.homepage-container {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.homepage-content {
+    background-color: #f0e68c; /* Lighter yellow for content */
+    border: 2px solid #b8860b; /* Gold border */
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', serif;
+}
+
+.homepage-title {
+    font-size: 36px;
+    color: #8b4513; /* Dark brown */
+    margin-bottom: 20px;
+}
+
+.homepage-description {
+    font-size: 18px;
+    color: #8b4513; /* Dark brown */
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.explore-btn {
+    background-color: #d2b48c; /* Tan button color */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+}
+
+.explore-btn:hover {
+    background-color: #b8860b; /* Gold-ish on hover */
+}

@@ -1,0 +1,63 @@
+/* Historic-themed styling for the Navbar */
+
+.navbar {
+    background-color: #f0e68c; /* Light yellow background */
+    border-bottom: 2px solid #b8860b; /* Gold-ish border */
+    padding:  12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Georgia', serif;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    color: #8b4513; /* Dark brown color */
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #8b4513;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    color: #b8860b; /* Gold-ish on hover */
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-username {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+.navbar-btn {
+    background-color: #d2b48c; /* Tan button color */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+}
+
+.navbar-btn:hover {
+    background-color: #b8860b; /* Gold-ish on hover */
+}
